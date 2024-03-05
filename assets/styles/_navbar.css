@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
+.navigation-bar .navigation-bar-list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navigation-bar .navigation-bar-list li {
+  padding: 4vh 1vh;
+}
+.navigation-bar .navigation-bar-list li:hover:not(#active) {
+  background-color: blue;
+}
+.navigation-bar .navigation-bar-list li:hover:not(#active) a {
+  color: white;
+}
+.navigation-bar .navigation-bar-list li a {
+  color: gray;
+}
+.navigation-bar .navigation-bar-list #active {
+  background-color: blue;
+}
+.navigation-bar .navigation-bar-list #active a {
+  color: white;
+}
+.navigation-bar .search-and-button .button {
+  padding: 2vh 3vh;
+  background-color: blue;
+  color: white;
+}/*# sourceMappingURL=_navbar.css.map */

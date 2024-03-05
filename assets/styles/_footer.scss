@@ -1,0 +1,19 @@
+footer{
+    background-color: rgb(12, 8, 29);
+    color: white;
+    .footer-container{
+        .footer-logo{
+            flex-grow: 1;
+        }
+        .footer-list-container{
+            flex-grow: 3;
+            width: 100%;
+            @media (max-width: 991px){
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 991px){
+            flex-direction: column;
+        }
+    }
+}

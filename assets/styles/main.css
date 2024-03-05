@@ -1,0 +1,131 @@
+@media (max-width: 991px) {
+  .header-items .follow-us {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .header-items .hamburger-menu {
+    display: unset !important;
+  }
+}
+
+header .header-bottom .navigation-bar .navigation-bar-list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+header .header-bottom .navigation-bar .navigation-bar-list li {
+  padding: 4vh 1vh;
+}
+header .header-bottom .navigation-bar .navigation-bar-list li:hover:not(#active) {
+  background-color: blue;
+}
+header .header-bottom .navigation-bar .navigation-bar-list li:hover:not(#active) a {
+  color: white;
+}
+header .header-bottom .navigation-bar .navigation-bar-list li a {
+  color: gray;
+}
+header .header-bottom .navigation-bar .navigation-bar-list #active {
+  background-color: blue;
+}
+header .header-bottom .navigation-bar .navigation-bar-list #active a {
+  color: white;
+}
+header .header-bottom .navigation-bar .search-and-button .button {
+  padding: 2vh 3vh;
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 991px) {
+  header .header-bottom {
+    display: none;
+  }
+}
+
+.hamburger-menu-items {
+  background-color: rgb(30, 144, 255);
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.head-line {
+  height: 4px;
+  width: 100%;
+  background-color: blue;
+}
+
+.section {
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section h3 {
+  padding-top: 10vh;
+}
+.section .payment-plans {
+  padding: 10vh 0vh;
+  width: 100%;
+}
+.section .payment-plans .plan-details, .section .payment-plans .recommended-plan {
+  padding: 4vh 8vh 5vh 8vh;
+  background-color: white;
+}
+.section .payment-plans .recommended-plan {
+  background-color: rgb(52, 155, 233);
+  padding: 6vh 8vh 8vh 8vh;
+}
+@media (max-width: 991px) {
+  .section .payment-plans .recommended-plan {
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .section .payment-plans .free-plan .plan-details, .section .payment-plans .recommended-plan .plan-details, .section .payment-plans .professional-plan .plan-details {
+    height: 100vh;
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .section .payment-plans .free-plan, .section .payment-plans .recommended-plan, .section .payment-plans .professional-plan {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5vh;
+  }
+}
+@media (max-width: 991px) {
+  .section .payment-plans {
+    flex-direction: column;
+  }
+}
+
+footer {
+  background-color: rgb(12, 8, 29);
+  color: white;
+}
+footer .footer-container .footer-logo {
+  flex-grow: 1;
+}
+footer .footer-container .footer-list-container {
+  flex-grow: 3;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  footer .footer-container .footer-list-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 991px) {
+  footer .footer-container {
+    flex-direction: column;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none;
+}/*# sourceMappingURL=main.css.map */
